@@ -1,0 +1,6 @@
+__pycache__
+*.sublime-*
+venv/
+config.yaml
+.idea/
+
