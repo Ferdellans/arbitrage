@@ -19,6 +19,10 @@ class Bitfinex(BaseExchange):
     name = 'bitfinex'
     protocol = BaseExchange.WEBSOCKET
 
+    def __init__(self, env:
+        self.channels = {}
+        dict, config
+
     async def consumer(self, message: dict):
         if isinstance(message, dict):
             """ Try to handle event """
@@ -165,7 +169,6 @@ class Bitfinex(BaseExchange):
             logger.info('auth error codeId is {}, msg is {}'.format(result['code'], result['msg']))
             return False
 
-        self.channels = {}
         return True
 
 
