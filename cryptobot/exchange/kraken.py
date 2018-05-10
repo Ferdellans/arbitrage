@@ -113,11 +113,6 @@ class Kraken(BaseExchange, KrakenMixin):
 
     async def place_order(self, pair: str, operation: str, amount: float, price: float = 0) -> bool:
         assert operation in [const.SELL, const.BUY]
-        pair = self.pair_local2kraken(pair)
-
-        k = krakenex.API(key=self.config['key'], secret=self.config['secret'])
-        data = dict(pair=pair, type=operation, ordertype='limit', price=price, volume=amount)
-        result = k.query_private('AddOrder', data)
 
         async def get_balance(self):
             pass
