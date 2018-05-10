@@ -19,11 +19,16 @@ class Arbitrage(BaseStrategy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, name, env, config):
         super().__init__(name, env, config)
         self.pairs = defaultdict(dict)
 
     async def update_ticker(self):
+=======
+    async def update_ticker(self):
+        self.pairs = defaultdict(dict)
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
     async def update_ticker(self):
         self.pairs = defaultdict(dict)
@@ -75,7 +80,10 @@ class Arbitrage(BaseStrategy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
@@ -89,6 +97,9 @@ class Arbitrage(BaseStrategy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
+=======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931

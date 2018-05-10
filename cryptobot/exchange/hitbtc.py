@@ -77,6 +77,10 @@ class HitBTC(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
         return
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
@@ -108,7 +112,11 @@ class HitBTC(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+            return
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
             return
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931

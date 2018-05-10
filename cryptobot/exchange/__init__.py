@@ -77,6 +77,7 @@ class WebsocketMixin:
                 self.ws = None
                 self.subscribed_pairs = []
 
+
 class RestMixin:
     REST = const.REST
     signature_key = 'token'
@@ -131,6 +132,7 @@ class RestMixin:
             for task in pending:
                 task.cancel()
         self.is_running = False
+
 
 class BaseExchange(WebsocketMixin, RestMixin):
     is_running = False

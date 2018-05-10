@@ -74,7 +74,10 @@ class Poloniex(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
@@ -114,7 +117,10 @@ class Poloniex(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
@@ -128,6 +134,9 @@ class Poloniex(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
+=======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
@@ -155,6 +164,10 @@ class Poloniex(BaseExchange):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.channels = {}
+>>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
 =======
         self.channels = {}
 >>>>>>> 115ca544ed61eecbc7442405e22bdd33be0bf931
