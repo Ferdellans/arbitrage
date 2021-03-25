@@ -27,7 +27,7 @@ psycopg2==2.7.3
 ptyprocess==0.5.2
 Pygments==2.2.0
 python-jsonschema-objects==0.2.2
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 simplegeneric==0.8.1
 six==1.10.0
