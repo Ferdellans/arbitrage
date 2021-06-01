@@ -36,7 +36,7 @@ SQLAlchemy==1.1.13
 telepot==12.3
 traitlets==4.3.2
 txaio==2.8.1
-urllib3==1.22
+urllib3==1.26.5
 wcwidth==0.1.7
 websockets==3.3
 yarl==0.12.0
